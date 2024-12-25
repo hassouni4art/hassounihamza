@@ -1,0 +1,90 @@
+@font-face{
+    font-family:'myfont';
+    src: url(/Fonts/Retroica.ttf)format('truetype')
+}
+.body{
+    font-family: 'myfont';
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+
+    
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.background{
+    position: fixed;
+    width: 1200PX;
+    top: -700PX;
+
+}
+.mylogo{
+    width: 200px;
+    position: absolute;
+    left: 110PX;
+    right: 100PX;
+    top: 25PX;
+ 
+}
+.welcomevfx{
+    width: 700PX;
+    position: absolute;
+    top: 140PX;
+    left: 229PX;
+}
+.gradient4{
+    position: absolute;
+    width: 900PX;
+    top: -300PX;
+    left: -500PX;
+}
+.gradient2{
+    position: absolute;
+    width: 900PX;
+    right: -300PX;
+}
+.allvfx{
+    display: grid;
+    grid-template-columns:repeat(1,1);
+    gap: 10PX;
+    padding: 10PX;
+    margin-top: 400PX;
+    margin-left: 400PX;
+
+}
+.allvfx video{
+    width: 320PX;
+    border: 5PX solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow:2PX 3PX 3PX 1PX purple;
+    transition: transform 0.25S;
+    z-index: 111;
+    cursor: pointer;
+
+}
+video:hover{
+    transform: scale(1.01);
+}
+
+.link{
+  
+    margin-bottom: 100PX;
+    display: inline-block;
+    z-index: 10;
+    font-family: 'myfont';
+    position: relative;
+    
+    margin-bottom: 100PX;
+    margin-left: 480PX;
+    margin-top: 40PX;
+
+}
+.link a{
+    text-align: center;
+    color: white;
+    font-size: 15PX;
+
+}

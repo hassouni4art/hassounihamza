@@ -1,0 +1,94 @@
+@font-face{
+    font-family:'myfont';
+    src: url(/Fonts/Retroica.ttf)format('truetype')
+}
+.body{
+    font-family: 'myfont';
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+
+    
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.background{
+    position: fixed;
+    width: 1200PX;
+    top: -700PX;
+    left: 0PX;
+
+}
+.mylogo{
+    width: 200px;
+    position: absolute;
+    left: 110PX;
+    right: 100PX;
+    top: 25PX;
+ 
+}
+.welcomestory{
+    position: absolute;
+    width: 800PX;
+    top: 150PX;
+    left: 170PX;
+
+}
+.gradient1{
+    position: absolute;
+    width: 700PX;
+    top: -400PX;
+
+
+}
+.gradient2{
+    width: 900PX;
+    position: absolute;
+    right: -600PX;
+}
+.gradient4{
+    width: 900PX;
+    left: -500PX;
+    top: 200PX;
+    position: absolute;
+}
+.story{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10PX;
+    padding:70px;
+    margin-top: 380PX;
+    z-index: 111;
+
+}
+.story img{
+    z-index: 111;
+    width: 300PX;
+    height: auto;
+    border: 5PX solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow:2PX 3PX 3PX 1PX purple;
+}
+.link{
+  
+    margin-bottom: 100PX;
+    display: inline-block;
+    z-index: 10;
+    font-family: 'myfont';
+    position: relative;
+    
+    margin-bottom: 100PX;
+    margin-left: 480PX;
+    margin-top: 40PX;
+
+}
+.link a{
+    text-align: center;
+    color: white;
+    font-size: 15PX;
+    z-index: 112;
+
+}

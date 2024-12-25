@@ -1,0 +1,112 @@
+@font-face{
+    font-family:'myfont';
+    src: url(/Fonts/Retroica.ttf)format('truetype')
+}
+.body{
+    font-family: 'myfont';
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+
+    
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.background{
+    width: 1200PX;
+    position: fixed;
+    bottom: -1000PX;
+    left: -20PX;
+
+}
+.mylogo{
+    width: 200px;
+    position: absolute;
+    left: 110PX;
+    right: 100PX;
+    top: 25PX;
+ 
+}
+.shape1{
+    position: absolute;
+    width: 800PX;
+    z-index: 20;
+    top: -200PX;
+    right: -400PX;
+}
+.welcomephotog{
+    width: 850PX;
+    height: 160PX;
+    z-index: 23;
+    position: absolute;
+    top: 180PX;
+    left: 150PX;
+}
+.shape2{
+    position: absolute;
+    width: 800PX;
+    z-index: 20;
+    top: 100PX;
+    left: -500PX;
+}
+.shape{
+    position: absolute;
+    top: -100PXPX;
+    right: 10PX; 
+    width: 700PX;
+}
+
+
+.allphotography{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30PX;
+    padding: 30px;
+    margin-top: -3400PX;
+    text-align: center;
+    align-items: center;
+    left: 280PX;
+    position: relative;
+
+}
+.allphotography img{
+    z-index: 10;
+    width: 500PX;
+    height: auto;
+    border: 5PX solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow:2PX 3PX 3PX 1PX purple;
+}
+.allphotography p{
+    width: 200%;
+    display: block;
+    word-wrap: break-word;
+    line-height: 1.4;
+    max-width: 100%;
+    color: white;
+    margin-top: 10PX;
+    margin-left: 50PX;
+
+}
+.link{
+  
+    margin-bottom: 100PX;
+    display: inline-block;
+    z-index: 10;
+    font-family: 'myfont';
+    position: relative;
+    
+    margin-bottom: 100PX;
+    margin-left: 480PX;
+    margin-top: 40PX;
+
+}
+.link a{
+    text-align: center;
+    color: white;
+    font-size: 15PX;
+
+}

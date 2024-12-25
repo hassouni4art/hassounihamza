@@ -1,0 +1,13 @@
+.html, .body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.mylogopage{
+    width: 100%;
+    position: absolute;
+    top: 0PX;
+    left: 0PX;
+    
+}

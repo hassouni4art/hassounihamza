@@ -1,0 +1,163 @@
+@font-face{
+    font-family:'myfont';
+    src: url(/Fonts/Retroica.ttf)format('truetype')
+}
+body{
+    background-color: black;
+    font-family:'myfont';
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+ 
+}
+.mylogo{
+    width: 200px;
+    position: absolute;
+    left: 100PX;
+    right: 300PX;
+    top: 25PX;
+}
+.contactme{
+    width: 120px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    right: 140px;
+   }
+   .welcome{
+    position: relative;
+    width: 900px;
+    margin-top: 200px;
+    margin-left: 130px;
+ }
+ .gradient1{
+    width: 700px;
+    position: absolute;
+    top: -500px;
+    left: 200px;
+ }
+ .gradient2{
+    width: 700px;
+    position: absolute;
+    top: 20PX;
+    right: -600PX;
+    
+ }
+ .discovermywork{
+    position: absolute;
+    width:100%;
+    margin-top: 500PX;
+    margin-left: -1030PX;
+    
+ }
+.myselfphotography{
+    width: 600PX;
+    position: absolute;
+    top: 1100PX;
+    left: 310PX;
+  
+    transition: width 0.25S;
+
+}
+.myselfphotography:hover{
+    width: 650px;
+
+}
+.mydrawings{
+    position: absolute;
+    width: 380PX;
+    top: 1200PX;
+    right: 470PX;
+    transition: width 0.25S;
+
+}
+.mydrawings:hover{
+    width:420px;
+
+}
+.myphotography{
+    position: absolute;
+    width: 460PX;
+    top: 1294PX;
+    right: 397PX;
+    transition: width 0.25s;
+}
+.myphotography:hover{
+    width:500PX;
+
+}
+.myphotoediting{
+    position: absolute;
+    width: 455PX;
+    top: 1390PX;
+    right: 397PX;
+    transition: width 0.25s;
+}
+.myphotoediting:hover{
+    width: 500PX;
+}
+.mystoriesprojects{
+    position: absolute;
+    width: 540PX;
+    top: 1670PX;
+    right: 397PX;
+    left: 320PX;
+    transition: width 0.25s;
+}
+.mystoriesprojects:hover{
+    width:600PX ;
+}
+.background{
+    width: 1350PX;
+    position:absolute;
+    bottom: -1780PX;
+}
+.myvfx{
+    position: absolute;
+    width: 200PX;
+    top: 1480PX;
+    right: 650PX;
+    transition: width 0.25s;
+
+}
+.myvfx:hover{
+    width: 230PX;
+}
+.typographydesign{
+    position: absolute;
+    width: 480PX;
+    top: 1570PX;
+    right: 369PX;
+    transition: width 0.25s;
+}
+.typographydesign:hover{
+    width:520PX ;
+}
+.clickhere{
+    width: 700PX;
+    position: relative;
+    top: 1400PX;
+    left: 200PX;
+    cursor: pointer;
+    transition:width 0.25s;
+}
+.clickhere:hover{
+     width:720PX ;
+}
+
+.footer{
+    width:1280px;
+    position: relative;
+    top: 1500px;
+}
+.mylogopage img{
+    width: 79PX;
+    position: relative;
+    top: -348PX;
+    left: -249PX;
+    right: -100PX;
+    
+}
+
+
